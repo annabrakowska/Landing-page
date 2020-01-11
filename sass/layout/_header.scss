@@ -1,0 +1,49 @@
+.header {
+  height: 100vh;
+  background-color: $color-black;
+
+  &__nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2%;
+    background-color: $color-gray-darkest;
+  }
+
+  &__logo {
+    cursor: pointer;
+    width: 6rem;
+  }
+
+  &__nav-links,
+  &__nav-social {
+    list-style: none;
+
+    li {
+      cursor: pointer;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2rem;
+      font-weight: 300;
+      letter-spacing: 0.4rem;
+      display: inline-block;
+      padding: 0 2rem;
+      color: $color-gray-dark;
+    }
+
+    a {
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+  &__title-container {
+    position: relative;
+    top: 22%;
+    left: 10%;
+  }
+}

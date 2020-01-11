@@ -1,0 +1,40 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  font: 300 1.1rem/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: $color-gray-darkest;
+}
+
+.heading-primary {
+  color: $color-white;
+  font-weight: 500;
+  line-height: 2.3rem;
+  font-size: 0;
+
+  &--animation {
+    display: inline-block;
+    font-size: 5.4rem;
+    &:hover {
+      color: $color-primary;
+      cursor: pointer;
+      animation: rubberBand 0.8s linear;
+    }
+  }
+
+  &__logo {
+    position: relative;
+    top: 0.8rem;
+    left: 0.5rem;
+    height: auto;
+    width: 6rem;
+  }
+}
+
+.heading-secondary {
+  color: $color-gray-light;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3rem;
+  margin-bottom: 2rem;
+}
