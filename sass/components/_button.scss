@@ -15,4 +15,22 @@
     color: $color-gray-dark;
     background-color: $color-primary;
   }
+
+  &--floating,
+  &:visited {
+    position: fixed;
+    width: 5rem;
+    height: 5rem;
+    bottom: 4rem;
+    right: 6rem;
+    color: $color-primary;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 10000;
+  }
+
+  &__icon--center {
+    position: relative;
+    top: 0.5rem;
+  }
 }

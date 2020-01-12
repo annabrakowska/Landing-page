@@ -5,13 +5,22 @@ body {
   color: $color-gray-darkest;
 }
 
+a,
+a:visited,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
 .heading-primary {
   color: $color-white;
   font-weight: 500;
   line-height: 2.3rem;
   font-size: 0;
 
-  &--animation {
+  &--animated {
+    color: $color-white;
     display: inline-block;
     font-size: 5.4rem;
     &:hover {
@@ -27,6 +36,12 @@ body {
     left: 0.5rem;
     height: auto;
     width: 6rem;
+  }
+
+  &__container {
+    position: relative;
+    top: 22%;
+    margin-left: 10%;
   }
 }
 

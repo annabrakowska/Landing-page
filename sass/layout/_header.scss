@@ -3,6 +3,7 @@
   background-color: $color-black;
 
   &__nav {
+    z-index: 1000;
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -40,10 +41,5 @@
         color: $color-primary;
       }
     }
-  }
-  &__title-container {
-    position: relative;
-    top: 22%;
-    left: 10%;
   }
 }
